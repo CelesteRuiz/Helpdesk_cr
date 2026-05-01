@@ -1,6 +1,12 @@
 Clase: FactoryIncidente
+
+Métodos:
 - crearIncidente(tipo)
-Tipos:
-- Red
-- Hardware
-- Software
+
+Descripción:
+Este método crea diferentes tipos de incidentes según el tipo:
+
+Tipos de Incidente:
+- IncidenteRed
+- IncidenteHardware
+- IncidenteSoftware
