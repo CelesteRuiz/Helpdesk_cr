@@ -1,3 +1,12 @@
 Clase: Notificacion
-- enviarAlerta()
-- actualizar()
+
+Atributos:
+- listaTecnicos: lista de Tecnico
+
+Métodos:
+- agregarObservador(tecnico)
+- eliminarObservador(tecnico)
+- notificar(ticket)
+
+Descripción:
+Cuando se crea un nuevo ticket, se notifica automáticamente a los técnicos disponibles.
