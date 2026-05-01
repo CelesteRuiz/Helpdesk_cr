@@ -1,4 +1,11 @@
 Clase: SistemaHelpDesk
-- gestionarTickets()
-- asignarTecnico()
+
+Atributos:
+- instancia: SistemaHelpDesk
+- listaTickets: lista de Ticket
+
+Métodos:
 - obtenerInstancia()
+- crearTicket(ticket)
+- asignarTecnico(ticket, tecnico)
+- listarTickets()
