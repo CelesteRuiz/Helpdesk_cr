@@ -1,6 +1,15 @@
 Clase: Ticket
-- id
-- tipo
-- estado
-- fecha
-- descripcion
+
+Atributos:
+- id: int
+- descripcion: string
+- tipo: string (Hardware, Red, Software)
+- estado: string (Abierto, En proceso, Resuelto, Cerrado)
+- fechaCreacion: date
+- tecnicoAsignado: Tecnico
+
+Métodos:
+- crearTicket(descripcion, tipo)
+- asignarTecnico(tecnico)
+- cambiarEstado(nuevoEstado)
+- obtenerDetalles()
