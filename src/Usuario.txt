@@ -1,4 +1,11 @@
 Clase: Usuario
-- id
-- nombre
-- rol
+
+Atributos:
+- id: int
+- nombre: string
+- email: string
+- rol: string (Usuario, Tecnico, Administrador)
+
+Métodos:
+- crearTicket(descripcion, tipo)
+- verEstadoTicket(ticket)
