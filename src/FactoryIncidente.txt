@@ -1,0 +1,6 @@
+Clase: FactoryIncidente
+- crearIncidente(tipo)
+Tipos:
+- Red
+- Hardware
+- Software

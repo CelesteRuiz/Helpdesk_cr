@@ -1,0 +1,6 @@
+Clase: Ticket
+- id
+- tipo
+- estado
+- fecha
+- descripcion

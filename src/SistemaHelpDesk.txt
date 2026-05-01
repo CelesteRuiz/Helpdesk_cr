@@ -1,0 +1,4 @@
+Clase: SistemaHelpDesk
+- gestionarTickets()
+- asignarTecnico()
+- obtenerInstancia()

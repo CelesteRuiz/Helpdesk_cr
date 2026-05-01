@@ -1,0 +1,4 @@
+Clase: Usuario
+- id
+- nombre
+- rol
